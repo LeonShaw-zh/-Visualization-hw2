@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- 引入 ECharts 文件 -->
+    <script src="./js/echarts.common.min.js"></script>
+    <!-- 引入 xlsx 文件 -->
+    <script src="./js/xlsx.core.min.js"></script>
+    <!-- css -->
+	<style>
+        body{
+            height: 700px;
+        }
+    </style>
+</head>
+<body>
+    <input type="file" id="excel-file">
+    <button type="button" id="vpbutton">百分比 数值</button>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="tab" style="width:1800px;height:700px;"></div>
+    <script type="text/javascript" src="./js/data.js"></script>
+    <script type="text/javascript" src="./js/tab2.js"></script>
+</body>
+</html>
